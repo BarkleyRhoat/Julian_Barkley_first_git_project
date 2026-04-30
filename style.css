@@ -16,4 +16,21 @@ div.developer {
 div.container {
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 6px;
 }
+div.food_container {
+  width: 200px;
+  display: inline-block;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 6px;
+  text-align: center;
+  margin: 20px;
+  
+}
+
+/* div.foods {
+  padding-left: 25px;
+  padding-right: 10px;
+
+} */
