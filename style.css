@@ -1,15 +1,15 @@
 h1 {
-    font-style: italic;
-    text-align: center;
+  font-style: italic;
+  text-align: center;
 }
 p {
-    color: lightseagreen;
+  color: lightseagreen;
 }
 div.developer {
   width: 200px;
   display: inline-block;
-  border: 2px solid grey;
-  border-radius: 5px;
+  border: 10px solid grey;
+  border-radius: 10px;
   padding: 6px;
   text-align: center;
 }
@@ -20,17 +20,20 @@ div.container {
 }
 div.food_container {
   width: 200px;
-  display: inline-block;
-  border: 2px solid grey;
-  border-radius: 5px;
+  border: 10px solid grey;
+  border-radius: 10px;
   padding: 6px;
   text-align: center;
-  margin: 20px;
-  
+  margin: 10px 0;
+}
+.foods_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 35%;
 }
 
-/* div.foods {
-  padding-left: 25px;
-  padding-right: 10px;
-
-} */
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
